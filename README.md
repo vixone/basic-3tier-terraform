@@ -17,16 +17,16 @@ Terraform configuration that provisions a **3-tier architecture** in AWS, includ
 
 2. **Plan**  
    ```sh
-   terraform plan
+   AWS_PROFILE=your-aws-profile terraform plan
 
 3. **Deploy**  
    ```sh
-   terraform apply -auto-approve
+   AWS_PROFILE=your-aws-profile terraform apply -auto-approve
 
 ## Cleanup
 
 **Destroy**  
    ```sh
-   terraform destroy -auto-approve
+   AWS_PROFILE=your-aws-profile terraform destroy -auto-approve
 
 
