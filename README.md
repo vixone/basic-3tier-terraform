@@ -1,4 +1,4 @@
-# Terraform 3-Tier Architecture
+# Terraform HA 3-Tier Architecture
 
 Terraform configuration that provisions a **3-tier architecture** in AWS, including:  
 **VPC** with **9 subnets** for HA (Public, Private App, Private DB)  
