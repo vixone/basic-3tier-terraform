@@ -155,7 +155,7 @@ resource "aws_route_table_association" "pub_2" {
   route_table_id = aws_route_table.public_rt.id
 }
 
-resource "aws_route_table_association" "pub_3" {
+resource "aws_route_table_association" "pub_4" {
   subnet_id      = aws_subnet.public_az_3.id
   route_table_id = aws_route_table.public_rt.id
 }
